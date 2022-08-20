@@ -1,0 +1,60 @@
+.head
+{
+    background-color: rgba(255, 81, 37, 0.705);
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.detail
+{
+    display: flex;
+    margin-top: 120px;
+    padding: 0 100px;
+}
+
+.product-detail
+{
+    width: 40%;
+    padding: 0 5%;
+
+}
+
+.product-info
+{
+    width: 50%;
+    padding-left: 5%;
+}
+
+button
+{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 81, 37, 0.705);
+    border-color:  rgba(255, 81, 37, 0.705);
+    font-size: 20px;
+    color: aliceblue;
+}
+button:hover
+{
+    background-color:  rgba(255, 51, 0, 0.705);
+    color:  rgba(0, 0, 0, 0.705);
+}
+input
+{
+    width: 150px;
+    height: 20px;
+    background-color: pink;
+    border-color: rgb(252, 109, 133);
+}
