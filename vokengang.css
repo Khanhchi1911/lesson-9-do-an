@@ -33,7 +33,6 @@ a
     padding: 10px 50px 10px 50px;
 
 }
-
 .price
 {
     text-align: center;
@@ -61,25 +60,4 @@ a
 .spmoi:hover .price
 {
     margin-bottom: 30px;
-}
-
-.product-img
-{
-    width: 450px;
-}
-.name
-{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    
-}
-.content
-{
-    margin-left: 10px;
-}
-.vo
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
