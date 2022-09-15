@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin liên hệ</title>
+    <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Cat-512.png" type="image/x-icon">
+</head>
+<body style=" background-color: pink; font-family:Bahnschrift;">
+    <style>
+        .head
+    {
+        background-color: rgba(255, 81, 37, 0.705);
+        position: fixed;
+        z-index:1;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    a
+    {
+        text-decoration: none;
+       
+        font-weight: bold;
+        color: aliceblue;
+    }
+    .dangnhap
+    {
+        width: 200px;
+        height: 50px;
+        background-color: rgba(255, 81, 37, 0.705);
+        border-color:  rgba(255, 81, 37, 0.705);
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .dangnhap:hover
+    {
+        background-color:  rgba(255, 51, 0, 0.705);
+        color:  rgba(0, 0, 0, 0.705);
+    }
+    input
+    {
+        width: 500px;
+        height: 30px;
+        background-color: pink;
+        border-color: rgb(252, 109, 133);
+        
+    }
+    .dangnhap1
+    {
+        width: 200px;
+        height: 50px;
+        background-color: rgba(0, 177, 15, 0.705);
+        border-color:  rgba(0, 230, 0, 0.705);
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .dangnhap1:hover
+    {
+        background-color:  rgba(102, 255, 0, 0.705);
+        color:  rgba(0, 0, 0, 0.705);
+    }
+    .dangnhap2
+    {
+        width: 200px;
+        height: 50px;
+        background-color: rgba(0, 110, 255, 0.705);
+        border-color:  rgba(37, 150, 255, 0.705);
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .dangnhap2:hover
+    {
+        background-color:  rgba(108, 147, 255, 0.705);
+        color:  rgba(0, 0, 0, 0.705);
+    }
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-item
+    {
+        width: 25%;
+    }
+
+    .footer
+    {
+        background-color: rgba(255, 102, 102, 0.541);
+        padding: 30px 50px 10px 50px;
+        margin-top: 20px;
+    }
+    .drop 
+    {    
+        color: rgb(255, 255, 255);  
+        font-weight: bold;
+        padding: 10px 20px;    
+        font-size: 20px;  
+        border: none;  
+        cursor: pointer;
+    }
+    .dropdown 
+    {  
+        position: relative;  
+        display: inline-block;
+    }
+    .drop-content 
+    {  
+        display: none;  
+        position: absolute;  
+        background-color: rgb(255, 152, 169);  
+        min-width: 150px;  
+        min-height: 90px;
+        z-index: 1;
+        font-size: 16px;
+        border: 1px solid rgb(179, 179, 179);
+        padding: 10px;
+
+    }
+    .drop-content a:hover
+    {  
+        
+        color: rgb(255, 255, 255);
+        box-shadow: 0 10px 10px 0 rgba(88, 29, 29, 0.2);
+    }
+    .dropdown:hover .drop-content 
+    {  
+        display: block;
+    }
+
+    </style>
+        <div class="head">
+            <a href="./index.html">
+                <img width="100px" height="70px" style="margin: 5px;" src="C:\Users\HP\Downloads\3ca4ca52b7a772f92bb6.jpg" alt="">
+            </a>
+            <a href="./gioithieu.html" style="font-size: 20px;">Giới thiệu</a>
+            <div class="dropdown">
+                <a href="./vo.html" class="drop">Vở </a>
+                <div class="drop-content">
+                    <a href="./vokengang.html">Vở kẻ ngang</a><hr>
+                    <a href="">Vở kẻ ngang lò xo</a><hr>
+                    <a href="">Vở ô ly</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="./but.html" style="font-size: 20px;">Bút</a>
+                <div class="drop-content">
+                    <a href="./butbinuoc.html">Bút bi nước</a><hr>
+                    <a href="">Bút chì kim</a><hr>
+                    <a href="">Set bút bi nước</a>
+                </div>
+            </div>
+            <a href="./capsach.html" style="font-size: 20px;">Cặp sách</a>
+            <a href="./vanphongpham.html" style="font-size: 20px;">Văn phòng phẩm khác</a>
+            <div style="display: flex;">
+                <img width="30px" height="30px" style="margin: 10px;" src="C:\Users\HP\Downloads\4d2017687195b4cbed84.jpg" alt=""><a href="./dangnhap.html" style="font-size: 20px; margin-top: 15px;">Tài khoản</a>
+            </div>
+        </div>
+    <div style=" background-color: rgb(255, 225, 230); margin: 120px;">
+        <div style="padding: 20px;">
+            <h1>ĐĂNG NHẬP TÀI KHOẢN</h1>
+            <p>Bạn chưa có tài khoản <a href="./dangki.html" style="color: black;">Đăng ký tại đây</a></p>
+        </div>
+        <form id="form-login" style="text-align: center; position: relative;">
+            <p><strong>E-mail:</strong></p>
+            <input id="email" type="email" value placeholder="E-mail" required> <br>
+            <p><strong>Mật khẩu:</strong></p>
+            <input id="password" type="password" value placeholder="Mật khẩu" required>
+        
+            <br>
+            <div style="text-align: center; padding-top: 20px;">
+                <button class="dangnhap">Đăng nhập</button>
+            </div>
+        </form>
+            <p style="padding-left: 300px;">Hoặc đăng nhập bằng</p>
+            <div style="text-align: center; padding-bottom: 20px;">
+                <button class="dangnhap1">Google</button>
+                <button class="dangnhap2">Facebook</button>
+            </div>
+        
+    </div>
+    <script src="./dangnhap.js"></script>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <p style="font-weight: bold;">Liên hệ</p>
+                <p>Cửa hàng & Văn phòng: Số aa ngõ bb ABC, XYZ</p>
+                <p>Bán lẻ: 0123******</p>
+                <p>Bán buôn: 0123******</p>
+                <p>Nhà máy: lô A, KCN ABC, xã ABC, XYZ</p>
+                <p>0234******</p>
+                <p>backtoschool@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <p style="font-weight: bold;">Thông tin</p>
+                <p>Giới thiệu về công ty</p>
+                <p>Chính sách chung</p>
+                <p>Quy định thanh toán</p>
+                <p>Chính sách vận chuyển</p>
+                <p>Đổi trả hàng và hoàn tiền</p>
+            </div>
+            <div class="footer-item">
+                <p style="font-weight: bold;">Chăm sóc khách hàng</p>
+                <p>Liên hệ</p>
+                <p>Trả hàng</p>
+            </div>
+        </div>
+    
+        <hr>
+        <h1 style="text-align: center; ">Made by Kchi </h1>
+        <p style="text-align: center; ">Tham khảo Klong.com.vn</p>
+    </div>    
+</body>
+</html>

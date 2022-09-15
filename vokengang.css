@@ -13,7 +13,7 @@
 a
 {
     text-decoration: none;
-    font-size: 25px;
+  
     font-weight: bold;
     color: aliceblue;
 }
@@ -60,4 +60,41 @@ a
 .spmoi:hover .price
 {
     margin-bottom: 30px;
+}
+.drop 
+{    
+    color: rgb(255, 255, 255);  
+    font-weight: bold;
+    padding: 10px 20px;    
+    font-size: 20px;  
+    border: none;  
+    cursor: pointer;
+}
+.dropdown 
+{  
+    position: relative;  
+    display: inline-block;
+}
+.drop-content 
+{  
+    display: none;  
+    position: absolute;  
+    background-color: rgb(255, 152, 169);  
+    min-width: 150px;  
+    min-height: 90px;
+    z-index: 1;
+    font-size: 16px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 10px;
+
+}
+.drop-content a:hover
+{  
+    
+    color: rgb(255, 255, 255);
+    box-shadow: 0 10px 10px 0 rgba(88, 29, 29, 0.2);
+}
+.dropdown:hover .drop-content 
+{  
+    display: block;
 }
